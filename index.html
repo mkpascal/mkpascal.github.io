@@ -3,15 +3,29 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Pascal MUANG-KHOT</title>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.1/build/cssreset/cssreset-min.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="app/style.css">
 </head>
   <body>
     <div>
-          <!-- View -->
-          <div data-ng-view=""></div>
+          <div id="menu">
+              <ul class="content_menu">
+                  <li class="title">Pascal MUANG-KHOT</li>
+                  <li><a href="#/view1">Home</a></li>
+                  <li><a href="#/view2">Resume</a></li>
+                  <li><a href="#/view1">Portfolio</a></li>
+                  <li><a href="#/view2">Github</a></li>
+                  <li><a href="#/view1">Blog</a></li>
+                  <li><a href="#/view2">Contact</a></li>
+              </ul>
+          </div>
     </div>
-    <br/>
-    <a href="#/view1">view1</a><br/>
-    <a href="#/view2">view2</a><br/>
+    <div>
+          <!-- View -->
+          <div data-ng-view="">
+          </div>
+    </div>
 
     <!-- Javascript -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
