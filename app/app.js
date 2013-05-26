@@ -23,3 +23,11 @@ var webSite = angular.module('webSite', []);
         ];    
         
     });
+    
+    webSite.controller('ControllerTwo', function ($scope){
+        $scope.cv = [
+            { header: 'In short', content: 'Im a web developer' },
+            { header: 'Experience', content: 'Check my experience' },
+        ];    
+        
+    });
