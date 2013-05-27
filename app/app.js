@@ -2,32 +2,44 @@ var webSite = angular.module('webSite', []);
 
     webSite.config(function ($routeProvider) {
         $routeProvider
-            .when('/view1',
+            .when('/home',
                 {
-                    controller: 'ControllerOne',
-                    templateUrl: 'app/partials/view1.html'
+                    controller: 'HomeController',
+                    templateUrl: 'app/partials/home.html'
                 })
-            .when('/view2',
+            .when('/skills',
                 {
-                    controller: 'ControllerOne',
-                    templateUrl: 'app/partials/view2.html'
+                    controller: 'SkillsController',
+                    templateUrl: 'app/partials/skills.html'
                 })
-            .otherwise({ redirectTo: '/view1' });
+            .otherwise({ redirectTo: '/home' });
     });
     
+    webSite.controller('HomeController', function ($scope){
+    });
+    
+    webSite.controller('MenuController', function ($scope){
+        $scope.menus = [
+            { title: 'Contact', url: '#/view1' },
+            { title: 'Github', url: '#/view2' },
+            { title: 'Education', url: '#/view2' },
+            { title: 'Experience', url: '#/view2' },
+            { title: 'Skills', url: '#/skills' },
+            { title: 'Profile', url: '#/home' },
 
-    webSite.controller('ControllerOne', function ($scope){
-        $scope.cv = [
-            { header: 'In short', content: 'Im a web developer' },
-            { header: 'Experience', content: 'Check my experience' },
         ];    
         
     });
     
-    webSite.controller('ControllerTwo', function ($scope){
-        $scope.cv = [
-            { header: 'In short', content: 'Im a web developer' },
-            { header: 'Experience', content: 'Check my experience' },
+    webSite.controller('SkillsController', function ($scope){
+        $scope.list = [
+            { title: 'Front-end Web Development', content:["HTML5","XHTML","CSS3","LESS","jQuery","Bootstrap","Flat UI"] },
+            { title: 'Back-end Web Development', content:["Ruby on Rails","PHP Kohana"]  },
+            { title: 'Revision Control System', content:["Git","SVN"]  },
+            { title: 'Project Management', content:["Agile","Scrum"]  },
+            { title: 'Miscellaneous', content:["Photoshop","Logic Pro","Audition"]  },
+
         ];    
         
     });
+    
