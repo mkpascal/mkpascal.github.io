@@ -1,0 +1,11 @@
+<h1>Skills</h1>
+
+             <div class="list">
+             
+                  <ul data-ng-repeat="skill in list" class="skills">
+                    <li>{{skill.title}}</li>
+                    <li class="elements" data-ng-repeat="suboption in skill.content">{{suboption}}</li> 
+                  </ul>
+
+             </div>
+
