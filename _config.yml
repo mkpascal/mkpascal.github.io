@@ -1,0 +1,11 @@
+# Site settings
+title: MKPascal.net
+email: mail@mkpascal.net
+description: Home page of Pascal Muang Khot
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.mkpascal.net" # the base hostname & protocol for your site
+twitter_username: mkpascal
+github_username:  mkpascal
+
+# Build settings
+markdown: kramdown

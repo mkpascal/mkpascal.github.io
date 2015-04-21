@@ -1,40 +1,23 @@
-<!DOCTYPE HTML>
-<html data-ng-app="webSite">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Pascal MUANG-KHOT</title>
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.1/build/cssreset/cssreset-min.css">
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="app/style.css">
-</head>
-  <body>
+---
+layout: default
+---
 
-    <div id="container">
+<div class="home">
 
-    <div>
-          <div id="menu" data-ng-controller="MenuController">
-              <ul class="content_menu">
-                  <li class="title" style="float:left;">Pascal MUANG-KHOT</li>
-                  <li data-ng-repeat="menu in menus">
-                    <a href="{{menu.url}}">{{menu.title}}</a>
-                  </li>
-              </ul>
-          </div>
-    </div>
-    
-    <div>
-          <!-- View -->
-          <div data-ng-view="" ng-animate="{event: 'animation'}">
-          </div>
-          
-    </div>
-        
-    </div>
-    
-        
-    <!-- Javascript -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
-	<script src="app/app.js"></script>
+  <h1 class="page-heading">Posts</h1>
 
-  </body>
-</html>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
