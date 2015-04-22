@@ -1,0 +1,28 @@
+---
+layout: default
+title: Posts
+permalink: /posts/
+---
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+
+  <div id="cover-photo-container">
+    <img id="cover-photo" src="/images/sf_cover.png">
+  </div>
+
+<h1 class="posts-h1">Posts</h1>
+
+  <ul class="no-bullet posts-ul">
+  {% for post in site.posts %}
+    <li class="post-link">
+      <a class="post-title" href="{{ post.url }}">
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+        {{ post.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+
+</div>
