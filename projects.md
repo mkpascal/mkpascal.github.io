@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Projects
-cover: sf_cover.png
+cover: project_cover.png
 permalink: /projects/
 ---
