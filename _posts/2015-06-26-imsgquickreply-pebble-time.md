@@ -12,7 +12,7 @@ It needs an iMessage bridge. So, you will need an OS X computer, preferably runn
 
 <img src="https://www.mkpascal.net/images/public/pebble.png" style="width:25%;float:left;padding: 0px 20px 10px 0px;">
 
-As you know, iOS APIs doesn't allow you to send specific actions to a notification you just received.
+As you know, iOS APIs don't allow you to send specific actions to a notification you've just received.
 It is a known limitation of ACNS. Using this hack, you will be able to reproduce a quick reply behavior with your Pebble.
 
 You won't be able to send a quick reply to a notification you just received.
