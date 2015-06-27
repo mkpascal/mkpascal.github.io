@@ -7,7 +7,7 @@ layout: post
 
 I&#8217;m happy to announce that BoxChaser 1.0.0 is finally out on the iOS App Store.
 
-<img src="http://a3.mzstatic.com/us/r30/Purple1/v4/3e/c1/cd/3ec1cdb1-9ef7-82b3-778e-2ffdbe14c114/screen1136x1136.jpeg" />
+<img src="http://a3.mzstatic.com/us/r30/Purple1/v4/3e/c1/cd/3ec1cdb1-9ef7-82b3-778e-2ffdbe14c114/screen1136x1136.jpeg" style="width:20%;float:left;" />
 
 BoxChaser is a simple game with two game modes, relax and revenge!
 
