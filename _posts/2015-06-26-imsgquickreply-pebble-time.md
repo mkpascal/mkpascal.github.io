@@ -16,5 +16,5 @@ It is a known limitation of ACNS. Using this hack, you will be able to reproduce
 You won't be able to send a quick reply to a notification you just received.
 This app will just allow you to send quick replies to a list of contacts you previously specified.
 
-**Demo:** https://vid.me/OkJ9 (video was shortened)
+**Demo:** https://vid.me/OkJ9 (video was shortened)<br/>
 **How to install iMsgQuickReply:** https://github.com/mkpascal/iMsgQuickReply
