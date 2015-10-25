@@ -5,11 +5,11 @@ author: Pascal MUANG-KHOT
 layout: post
 ---
 
-Liquidsoap is a great tool, yet the audio processing built-in is terrible. Based upon Aigars first script, I made a modified version that provides an acceptable processing for internet radio. Bare in mind, this is far from the performance of a hardware processing. 
+Liquidsoap is a great tool, yet the built-in audio processing is terrible. Based upon Aigars script, I made a modified version that provides an acceptable processing for internet radio. Bare in mind, this is far from the performance of a hardware processor but this is good enough for internet radio.
 
 You can find it here : <a href="https://github.com/mkpascal/mk_liquidsoap_processing">https://github.com/mkpascal/mk_liquidsoap_processing</a>.
 
-This processing chain is using ladspa plugins, make sure to compile/install them with liquidsoap. 
+This processing chain is using ladspa plugins, make sure to compile/install them with liquidsoap. Feel free to submit issues/pull requests on the repository.
 
 Here is the list of plugins I'm using:
 <ul><li>SC4</li>
