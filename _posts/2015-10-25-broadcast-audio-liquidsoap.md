@@ -12,12 +12,12 @@ You can find it here : <a href="https://github.com/mkpascal/mk_liquidsoap_proces
 This processing chain is using ladspa plugins, make sure to compile/install them with liquidsoap. 
 
 Here is the list of plugins I'm using:
-* SC4
-* Tap Limiter
-* Tap Equalizer
-* Tap Deesser
-* Gate
-* Matrix Spatialiser
+<ul><li>SC4</li>
+<li>Tap Limiter</li>
+<li>Tap Equalizer</li>
+<li>Tap Deesser</li>
+<li>Gate</li>
+<li>Matrix Spatialiser</li></ul>
 
 First, we start the processing with a gate to remove unwanted low level audio. We move then to the pre-processing stage using normalize as an AGC and a low-ratio compressor to level up the audio.
 
