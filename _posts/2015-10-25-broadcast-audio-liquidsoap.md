@@ -5,7 +5,7 @@ author: Pascal MUANG-KHOT
 layout: post
 ---
 
-Liquidsoap is a great tool, yet the built-in audio processing is terrible. Based upon Aigars script, I made a modified version that provides an acceptable sound for internet radio. Bare in mind, this is far from the performance of a hardware processor but this is good enough for internet radio.
+Liquidsoap is a great tool, yet the built-in audio processing is terrible. Based upon Aigars script, I made a modified version that provides an acceptable sound for internet radio. Bear in mind, this is far from the performance of a hardware processor but this is good enough for internet radio.
 
 You can find it here : <a href="https://github.com/mkpascal/mk_liquidsoap_processing">https://github.com/mkpascal/mk_liquidsoap_processing</a>.
 
