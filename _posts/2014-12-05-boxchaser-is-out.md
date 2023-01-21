@@ -15,7 +15,9 @@ Just move your phone and chase boxes or the boxes will chase you.
 
 It is compatible with iOS 7+. This app is optimized for the new iPhone 6, and iPhone 6 Plus.
 
-You can download it using this link : **<http://appsto.re/us/dPey4.i>**. You can also look for &#8220;**BoxChaser**&#8221; in the App Store.
+You can look for &#8220;**BoxChaser**&#8221; in the App Store.
+
+**Update (1/20/2023)**: New release for iOS 11+. Available at https://apps.apple.com/app/boxchaser-2/id1619427697
 
 Enjoy! :bowtie:
 
