@@ -5,7 +5,7 @@ cover: sf_cover.png
 permalink: /about/
 ---
 
-Hi. My name is Pascal. I’m 33 and I live in San Francisco. I was born and raised in France.
+Hi. My name is Pascal. I’m 34 and I live in San Francisco. I was born and raised in France.
 
 **I'm currently looking for a job as a Ruby on Rails Software Engineer.**
 
